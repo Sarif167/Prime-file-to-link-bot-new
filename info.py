@@ -9,8 +9,8 @@ id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
 SESSION = environ.get('SESSION', 'PrimeBotz')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
+API_ID = int(environ.get('API_ID', '10458298'))
+API_HASH = environ.get('API_HASH', 'cc22b4a72ff510077ea7f4f5fc115779')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 BOT_USERNAME = environ.get("BOT_USERNAME", 'File_To_Link_Prime_Bot') # without @ 
 
@@ -37,7 +37,7 @@ BAN_CHNL = [int(ban_chal) if id_pattern.search(ban_chal) else ban_chal for ban_c
 BAN_ALERT = environ.get('BAN_ALERT' , '<b>ʏᴏᴜʀ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ.ᴄᴏɴᴛᴀᴄᴛ [ᴏᴡɴᴇʀ](https://telegram.me/Prime_Bots_Support_RoBot) ᴛᴏ ʀᴇsᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇ!!</b>')
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://technicalseekho249_db_user:JI2rAJvc0RE2asYE@cluster0.8hgdhqt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 
 # fsub  information
