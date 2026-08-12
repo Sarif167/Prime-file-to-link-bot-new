@@ -15,17 +15,17 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 BOT_USERNAME = environ.get("BOT_USERNAME", 'File_To_Link_Prime_Bot') # without @ 
 
 # Admins, Channels & Users
-BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-100')) # admin your channel in stream 
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-100')) # admin your channel in users log 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5977931010').split()] # 3567788, 678899, 5889467
-OWNER_USERNAME = environ.get("OWNER_USERNAME", 'PRIME_Nayem') # without @ 
+BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1003184409377')) # admin your channel in stream 
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1003184409377')) # admin your channel in users log 
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1249672673').split()] # 3567788, 678899, 5889467
+OWNER_USERNAME = environ.get("OWNER_USERNAME", 'botmaster55') # without @ 
 
 # pics information
 PICS = (environ.get('PICS', 'https://envs.sh/fIc.jpg'))
 
 # channel link information
-CHANNEL = environ.get('CHANNEL', 'https://t.me/Prime_Botz')
-SUPPORT = environ.get('SUPPORT', 'https://t.me/Prime_Botz_Support')
+CHANNEL = environ.get('CHANNEL', 'https://t.me/MovieSearchAutoGroup')
+SUPPORT = environ.get('SUPPORT', 'https://t.me/MovieSearchAutoGroup')
 
 #Dont Remove My Credit @AV_BOTz_UPDATE 
 #This Repo Is By @BOT_OWNER26 
@@ -42,7 +42,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 
 # fsub  information
 AUTH_PICS = environ.get('AUTH_PICS', 'https://envs.sh/AHX.jpg')              
-AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", "-1002245813234"))
+AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", "-1003589639644"))
 FSUB = environ.get("FSUB", True)
 
 # port information
