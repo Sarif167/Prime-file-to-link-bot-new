@@ -21,7 +21,7 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 OWNER_USERNAME = environ.get("OWNER_USERNAME", 'botmaster55') # without @ 
 
 # pics information
-PICS = (environ.get('PICS', 'https://envs.sh/fIc.jpg'))
+PICS = (environ.get('PICS', 'https://kappa.lol/y0mXA1'))
 
 # channel link information
 CHANNEL = environ.get('CHANNEL', 'https://t.me/MovieSearchAutoGroup')
@@ -41,7 +41,7 @@ DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 
 # fsub  information
-AUTH_PICS = environ.get('AUTH_PICS', 'https://envs.sh/AHX.jpg')              
+AUTH_PICS = environ.get('AUTH_PICS', 'https://kappa.lol/y0mXA1')              
 AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", "-1003589639644"))
 FSUB = environ.get("FSUB", True)
 
